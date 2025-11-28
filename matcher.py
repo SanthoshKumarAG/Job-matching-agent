@@ -14,7 +14,7 @@ class JobMatcher:
             'communication', 'leadership', 'management', 'analytical',
             'problem solving', 'attention to detail', 'teamwork',
             'project management', 'agile', 'scrum', 'git', 'aws', 'azure',
-            'trading', 'investment', 'risk management', 'analytics'
+            'trading', 'investment', 'risk management', 'analytics', 'SIEM', 'security', 'operations', 'human resource', 'SOC analyst', 'IAM', 'EDR', 'SOAR', 'service desk', 'incident response'
         ]
         
         text_lower = text.lower()
@@ -66,3 +66,4 @@ class JobMatcher:
             'score': round(final_score, 1),
             'matched_skills': list(overlap)[:5]
         }
+
